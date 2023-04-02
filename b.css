@@ -1,0 +1,229 @@
+html{
+height: 3050px;
+padding: 0;
+}
+header,section,aside{
+    margin-top: 0px;
+}
+.logo{
+    transform: translate(600px,-300px);
+}
+.ta{
+    text-align: center;
+    transform: translate(0px,-300px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 0.9rem;
+    color: darkgray;
+    line-height: 1.5rem;
+    font-stretch:condensed;
+    letter-spacing: 1px;
+}
+.tb{
+    text-align: center;
+        transform: translate(0px, -230px);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dow{
+    display: flex;
+    transform: translate(480px , -300px);
+}
+.sa{
+    border: solid;
+    border-radius: 90px;
+    padding:0px 20px;
+    font-stretch: extra-condensed;
+    letter-spacing: 2px;
+    background-color: rgb(46, 179, 104);
+    color: aliceblue;
+}
+.sb{
+            border: solid;
+            border-radius: 90px;
+            padding: 0px 20px;
+            font-stretch: extra-condensed;
+            letter-spacing: 2px;
+            background-color: rgb(116, 16, 177);
+            color: aliceblue;
+}
+.eee{
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+.comp{
+    margin-left: -80px;
+    margin-top: -200px;
+    transform: scale(0.9);
+}
+.tc{
+    transform: translate(750px,-520px);
+}
+.td{
+    text-align: center;
+    transform: translate(0px,-300px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.deva{
+    margin-left: 230px;
+    margin-top: -200px;
+}
+.te{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon{
+    display: flex;
+    text-align: center;
+    transform: translate(140px,40px);
+}
+.ico,.ico1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ico1{
+    margin-top: -8px;
+}
+.logo1{
+    display: flex;
+    transform: translate(50px,150px);
+}
+.cm{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.tf{
+    text-align: center;
+    transform: translateY(230px);
+}
+.dow1 {
+    display: flex;
+    transform: translate(500px,250px);
+}
+.flex1{
+    transform: translate(380px,350px);
+}
+.flex2{
+    transform: translate(530px,272px);
+}
+.flex3{
+    transform: translate(710px,192px);
+}
+.logo2{
+    transform: scale(0.4);
+    margin-top: 140px;
+    margin-left: -260px;
+}
+.app{
+    display: flex;
+    transform: translate(1150px,-80px);
+}
+.s{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer{
+    background-color: darkgray;
+    height: 100px;
+    transform: translateY(350px)
+}
+.ss{
+    transform: translateY(-320px);
+}
+@media (max-width:450px) {
+.logo{
+   transform: translate(175px,-300px);
+}   
+.ta{
+    position: relative;
+    left:  65px;
+    top: 30px;
+    width: 340px;
+}
+.tb{
+    position: relative;
+    top: 120px;
+    left: 90px;
+}
+.dow{
+    transform: translate(80px,-220px);
+    display: block;
+    padding-left:0px;
+}
+.sa,.sb{
+    text-align: center;
+}
+.comp{
+    transform: scale(0.55);
+    position: relative;
+    left: 25px;
+
+}
+.tc{
+    transform: translate(90px,-70px);
+    text-align: center;
+    font-size: 1.7rem;
+}
+.td{
+    transform: translate(85px,20px);
+}
+.deva{
+    transform: scale(0.5);
+    position: relative;
+    top: 150px;
+    right: 240px;   
+}
+.te{
+    transform: translate(60px,0px);
+    font-size: 1.6rem;
+    width: 350px;
+}
+.icon{
+    display: block;
+    transform: translate(80px,50px);
+    font-size: 1.6rem;
+}
+.logo1{
+    display: block;   
+}
+.cm{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: translate(50px);
+}
+.tf{
+    width: 290px;
+    transform: translate(90px,200px);
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.dow1{
+    transform: translate(80px,240px);
+    display: block;
+    text-align: center;
+}
+.logo2{
+    transform: translate(440px);
+}
+.flex1{
+    transform: translate(100px,600px);
+    text-align: center;
+}
+.flex2{
+    transform: translate(100px,600px);
+    text-align: center;
+}
+.flex3{
+    transform: translate(100px,600px);
+    text-align: center;
+}
+.app{
+    transform: translate(150px,500px);
+}
+footer{
+    background-color: transparent;
+}
+}
